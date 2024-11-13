@@ -1,8 +1,13 @@
-# React + Vite
+# DishDiscover
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DishDiscover is a web application where users can search, filter, and discover recipes by region, category, or name. The app fetches data from TheMealDB API and provides a user-friendly interface for exploring a diverse collection of global cuisines.
 
-Currently, two official plugins are available:
+## Features
+- Search by Meal Name: Users can enter a meal name to search for specific recipes.
+- Filter by Area: Explore recipes based on different regions, like Indian, Italian, or American.
+- Filter by Category: Users can also browse recipes by category, such as Seafood, Breakfast, or Dessert.
+- Responsive Design: Optimized for mobile and desktop to provide a seamless experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- Frontend: React.js, Tailwind CSS for styling
+- API: TheMealDB API for recipe data

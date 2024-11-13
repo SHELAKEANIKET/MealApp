@@ -60,6 +60,14 @@ function ShowMeal() {
     setSelectedArea("");
   };
 
+  if (mealData.length === 0) {
+    return (
+      <div className="flex justify-center items-center my-40 font-semibold text-lg">
+        Loading Data...
+      </div>
+    );
+  }
+
   return (
     <div className="flex justify-center items-center flex-col mx-3 lg:mx-20 my-14">
       <div className="flex justify-center items-center flex-col gap-10">
@@ -133,7 +141,7 @@ function ShowMeal() {
       <div>
         {notFound && (
           <p className="text-black text-lg font-medium text-center">
-           ❌ Data Not found ❌
+            ❌ Data Not found ❌
           </p>
         )}
       </div>

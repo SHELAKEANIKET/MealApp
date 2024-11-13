@@ -57,6 +57,10 @@ function MealDetails() {
     }
   }
 
+  if (mealInfo === "") {
+    return <div className="flex justify-center items-center my-40 font-semibold text-lg">Loading...</div>;
+  }
+
   return (
     <div className="my-20 mx-4 lg:mx-20">
       <div className="my-10 flex justify-center items-start flex-col">

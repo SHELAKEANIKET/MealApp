@@ -32,9 +32,9 @@ function Navbar() {
       <div className="px-4 md:px-10">
         <div className="flex items-center justify-between">
           <div className="flex shrink-0">
-            <Link to="/" className="text-xl font-bold text-primary">
+            <Link to="/" className="text-base lg:text-xl font-bold text-primary">
               <div className="flex justify-center items-center gap-1">
-                <img src=".././assets/dish.png" alt="dish image" className="size-8" />
+                <img src=".././assets/dish.png" alt="dish image" className="size-6 lg:size-8" />
                 <span>DishDiscover</span>
               </div>
             </Link>

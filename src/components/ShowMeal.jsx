@@ -63,7 +63,7 @@ function ShowMeal() {
   if (mealData.length === 0) {
     return (
       <div className="flex justify-center items-center my-40 font-semibold text-lg">
-        Loading Data...
+        <div class="rounded-md h-12 w-12 border-4 border-t-4 border-primary animate-spin absolute"></div>
       </div>
     );
   }
@@ -128,7 +128,7 @@ function ShowMeal() {
                   <img
                     src={meal.strMealThumb}
                     alt="meal image"
-                    className="object-fill hover:scale-105 transition-all duration-200"
+                    className="object-fill hover:scale-105 transition-all duration-200 w-80"
                   />
                 </div>
                 <h2 className="text-black text-lg font-medium text-center truncate w-full px-3">
